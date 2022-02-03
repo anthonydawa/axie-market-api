@@ -13,6 +13,11 @@ cd tmt-axe
 
 3. clone following application.
     1. [app](https://github.com/dwnfrc/TMT-axe.app)
+        1. cd to /app.
+        ```
+        cd app
+        ```
+        2. clone [app](https://github.com/dwnfrc/TMT-axe.app).
         ```
         git clone https://github.com/dwnfrc/TMT-axe.app.git app
         ```
