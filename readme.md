@@ -19,7 +19,7 @@ cd tmt-axe
         ```
         2. clone [app](https://github.com/dwnfrc/TMT-axe.app).
         ```
-        git clone https://github.com/dwnfrc/TMT-axe.app.git app
+        git clone https://github.com/dwnfrc/TMT-axe.app.git .
         ```
 
 at end of above process your directory structure should be same as following
