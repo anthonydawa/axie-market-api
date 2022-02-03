@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   tmt-axe_app:
-    build:
-      context: ./app
-      dockerfile: ./Dockerfile
+    image: node:16.13.2-slim
+    working_dir: /app
     volumes:
       - ./app:/app
     ports:
       - 3000:3000
+    command:  bash -c "npm i && npm run dev"
