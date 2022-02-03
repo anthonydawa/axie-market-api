@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  tmt-axe_app:
+  app:
     image: node:16.13.2-slim
     working_dir: /app
     volumes:
