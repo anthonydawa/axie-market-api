@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  tmt-axe_app:
+    build:
+      context: ./app
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./app:/app
+    ports:
+      - 3000:3000
