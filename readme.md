@@ -35,7 +35,9 @@ at end of above process your directory structure should be same as following
 ```
  tmt-axe
     │
+    ├──  api
     └──  app
+
 ```
 
 ## start application on local
