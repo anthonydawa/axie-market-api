@@ -4,7 +4,7 @@
 
 1. clone [application root](https://github.com/dwnfrc/TMT-axe).
 ```
-git clone https://github.com/dwnfrc/TMT-axe tmt-axe
+git clone git@github.com:dwnfrc/TMT-axe.git tmt-axe
 ```
 2. move to application root
 ```
@@ -19,7 +19,16 @@ cd tmt-axe
         ```
         2. clone [app](https://github.com/dwnfrc/TMT-axe.app).
         ```
-        git clone https://github.com/dwnfrc/TMT-axe.app.git .
+        git clone git@github.com:dwnfrc/TMT-axe.app.git .
+        ```
+    2. [api](https://github.com/dwnfrc/TMT-axe.api)
+        1. cd to /api
+        ```
+        cd api
+        ```
+        2. clone [api](https://github.com/dwnfrc/TMT-axe.api)
+        ```
+        git clone git@github.com:dwnfrc/TMT-axe.api.git .
         ```
 
 at end of above process your directory structure should be same as following
